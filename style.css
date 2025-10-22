@@ -1,23 +1,25 @@
 body{
-    color:rgb(0, 0, 0);
-    background:rgb(218, 152, 109);
+    color: rgb(239, 159, 159);
+    background: rgb(206, 230, 206);
+    margin: 0px;
+    font-family: "Gravitas One", sans-serif;
 }
 
 header{
-    border-bottom: solid 2px rgb(0, 0, 0);
+    border-bottom: solid 2px red;
     padding: 20px;
     font-size: 32px;
-    color: rgb(139, 110, 110);
+    color: rgb(31, 38, 240);
 }
 
 section{
-    background-color: rgb(153, 105, 73);
+    background: green;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
 
-.chamda-texto{
-    margin-right: 5%;
+.chamada-texto{
+margin-right: 5%;
 }
