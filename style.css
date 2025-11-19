@@ -35,4 +35,18 @@ img{
     padding-left: 20px;
     padding-right: 20px;
 }
+.categoria-videos{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1,0;
+    border: 1px solid rgb(226, 43, 43);
+
+}
+.categoria h2{
+    color:black;
+}
+
+
 
