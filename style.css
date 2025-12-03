@@ -1,18 +1,18 @@
-body{
+body {
     color: rgb(0, 0, 0);
     background: rgb(109, 109, 108);
     margin: 0px;
     font-family: "Gravitas One", sans-serif;
 }
 
-header{
+header {
     border-bottom: solid 2px rgb(8, 8, 8);
     padding: 20px;
     font-size: 32px;
     color: rgb(219, 220, 238);
 }
 
-section{
+.chamada {
     background: rgb(255, 255, 255);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -20,33 +20,32 @@ section{
     justify-content: center;
 }
 
-.chamada-texto{
-margin-right: 5%;
-} 
-img{
-    height: 200px;
+.chamada-texto {
+    margin-right: 5%;
 }
-.categoria-videos{
-    display:flex;
+
+.categoria-videos {
+    display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.categoria{
+
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
 }
-.categoria-videos{
+
+.categoria-videos img {
     opacity: 0.5;
     height: 200px;
 }
-.categoria-videos img:hover{
-    opacity: 1,0;
+
+.categoria-videos img:hover {
+    opacity: 1, 0;
     border: 1px solid rgb(17, 16, 16);
 
 }
-.categoria h2{
-    color:black;
+
+.categoria h2 {
+    color: black;
 }
-
-
-
